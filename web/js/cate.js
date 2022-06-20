@@ -5,7 +5,7 @@ $(document).ready(function () {
     listarClientes();
     listarProductos();
     listarVendedor();
-    
+
 
 });
 let xx;
@@ -20,15 +20,21 @@ function listarVentas() {
         for (let i = 0; i < x.length; i++) {
             $("#tablon").append(
                     "<tr><td>" + (i + 1) + "</td><td>" + x[i].idventa + "</td><td>" + x[i].sucursal +
-                    "</td><td>" + x[i].vendedor + "</td><td>" + x[i].cliente + "</td><td>" + x[i].fecha + "</td><td><a href='#'><i id='ojito' class='fa-solid fa-eye'></i></a></td>");
+                    "</td><td>" + x[i].vendedor + "</td><td>" + x[i].cliente + "</td><td>" + x[i].fecha + "</td><td><a href='#' data-target='#exampleModal' data-toggle='modal'><i class='fa-solid fa-eye'></i></a></td>");
+
+
+
+
         }
 
-        $("#ojito").click(function () {
-            alert("oliuwu");
-        });
 
     });
+
+
 }
+
+
+
 function listarSucursales() {
     $.get("Sucursales", {"opc": 1}, function (data)
     {
@@ -127,12 +133,12 @@ function listarProductos() {
 
 }
 let mostrar = () => {
-    
+
 
 
     var selected = $("#productos :selected").val();
-    
-        console.log(selected);
+
+    console.log(selected);
 
     precio.forEach(function (elemento, indice, array) {
 
