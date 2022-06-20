@@ -1,6 +1,11 @@
 
 package exa02.daoimpl;
 
+/**
+ *
+ * @author elias
+ */
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

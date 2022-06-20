@@ -1,5 +1,9 @@
-
 package exa02.dao;
+
+/**
+ *
+ * @author elias
+ */
 
 import java.util.List;
 import exa02.entity.Vendedor;

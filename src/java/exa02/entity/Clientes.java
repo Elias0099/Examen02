@@ -1,5 +1,9 @@
-
 package exa02.entity;
+
+/**
+ *
+ * @author elias
+ */
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

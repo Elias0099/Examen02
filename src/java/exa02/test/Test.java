@@ -1,5 +1,10 @@
 package exa02.test;
 
+/**
+ *
+ * @author elias
+ */
+
 import com.google.gson.Gson;
 import exa02.config.Conexion;
 import exa02.dao.VendedorDAO;

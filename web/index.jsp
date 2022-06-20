@@ -1,3 +1,9 @@
+<%-- 
+    Document   : a
+    Created on : 11 jun. 2022, 22:53:13
+    Author     : elias
+--%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -11,7 +17,7 @@
     <body>
         <div class="container ">
             <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
-                <a class="navbar-brand" href="home">Examen02 - Universidad Peruana Unión</a>
+                <a class="navbar-brand" href="home">Examen02 - Universidad Peruana UniÃ³n</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
